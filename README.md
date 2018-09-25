@@ -10,3 +10,4 @@ week 2
 * sec.cpp
 
 week 3
+*BMI.cpp
