@@ -10,4 +10,8 @@ week 2
 * sec.cpp
 
 week 3
+* leap_year_while.cpp
+* sec_while.cpp
 * BMI.cpp
+* sum.cpp
+
