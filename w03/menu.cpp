@@ -36,9 +36,13 @@ int main(){
         printf("Enter height and type: \n");
         scanf("%d %d", &height , &type);
         for(int i=1;i<=height;i++){
-            for(int j=1;j<=ype;j++){
-                if(i==1 || i==height || j==1 || j==width)
-
+            for(int j=1;j<=type;j++){
+                if(i==j || i==height || j==1)
+                  printf("*");
+                else
+                  printf(" ");
+                }
+                  printf("\n");
         }
 
 
@@ -50,4 +54,3 @@ int main(){
 }
         }
 }
-
