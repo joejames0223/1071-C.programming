@@ -12,6 +12,7 @@ void drawRect(int height, int width,int filled)
     {
         for(int j=1;j<=width;j++)
         {
+
             if(i==1 || i==height || j==1 || j==width)
                printf("*");
             else
@@ -73,10 +74,11 @@ int main(){
     printf("Main menu\n");
     printf("1. Retangle\n");
     printf("2. Vertical Triangle\n");
-    printf("3. Exit\n");
+    printf("3. Tsosceles Triangle\n");
+    printf("4. Exit\n");
     printf("=> ");
     scanf("%d", &choice);
-    if(choice==3)break;
+    if(choice==4)break;
     switch(choice)
     {
     case 1:
@@ -94,4 +96,3 @@ int main(){
         }
         return 0;
 }
-
