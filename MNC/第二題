@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int height;
+    int h1,h2;
+    float k1;
+    float k2;
+    printf("Enter height(-1 to exit): ");
+    scanf("%d %d",&h1,&h2);
+    if(h1>=0 && h2>=0)
+    {
+        for(int i=h1;i<=h2;i++)
+        {
+            k1=18.5*(i*i)/10000.;
+            k2=24*(i*i)/10000.;
+            printf("%4d (cm) =%.1f ~ %.1f (kg)\n",i,k1,k2);
+        }
+    }
+    else{
+        printf("Bye.Coding by 407410140");
+    }
+}
