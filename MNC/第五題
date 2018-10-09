@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+void Arithmetic(int a,int b){
+	printf("%d + %d = %d \n",a,b,a+b);
+	printf("%d - %d = %d \n",a,b,a-b);
+	printf("%d * %d = %d \n",a,b,a*b);
+	printf("%d / %d = %d \n",a,b,a/b);
+	printf("%d %% %d = %d \n",a,b,a%b);
+}
+
+int main(){
+    int choice;
+    int a;
+    int b;
+    int n;
+
+    while(1)
+    {
+    printf("Main menu\n");
+    printf("1. Arithmetic Computation\n");
+    printf("2. List BMI ranges\n");
+    printf("3. Eraw Four Vertical Triangles\n");
+    printf("4. encode(n)\n");
+    printf("5. decode(n)\n");
+    printf("6. Exit\n");
+    printf("=> ");
+    scanf("%d", &choice);
+    if(choice==6)break;
+    switch(choice)
+    {
+    case 1:
+        printf("Enter two integers: ");
+        scanf("%d %d",&a,&b);
+        Arithmetic(a,b);
+        break;
+    case 2:
+    }
+    }
+}
