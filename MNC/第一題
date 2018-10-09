@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>  //stdlib要注意
 
 int main()
 {
 	int a,b;
 
 	printf("Enter two integers: ");
-	scanf("%d %d",&a,&b);
+	scanf("%d %d",&a,&b);        //&a,&b之間要逗號
 	printf("%d + %d = %d \n",a,b,a+b);
 	printf("%d - %d = %d \n",a,b,a-b);
 	printf("%d * %d = %d \n",a,b,a*b);
