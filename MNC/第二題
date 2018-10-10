@@ -6,7 +6,7 @@ int main()
     int h1,h2;
     float k1;
     float k2;
-    printf("Enter height(-1 to exit): ");
+    printf("Enter height range(-1 to exit): ");
     scanf("%d %d",&h1,&h2);
     if(h1>=0 && h2>=0)
     {
