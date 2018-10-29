@@ -16,5 +16,17 @@ week 3(4)
 * sum.cpp
 
 week 5
+* sec.cpp
 
+week 6
+* daypassed.cpp
+* sort(not understand).cpp
+week 7
+* gcd.cpp
+* rsum.cpp
+* sumodd.cpp
+* tower(not understand).cpp
 
+week 8
+* magic(not finish).cpp
+* magic.cpp
